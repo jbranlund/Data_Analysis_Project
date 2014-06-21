@@ -8,14 +8,14 @@ The datasets available on the web contain numbers only. The variables (column la
 
 ##The code
 The run_analysis R script does the following:
-*Downloads and unzips the relevant data
-*Adds column names listed in features.txt
-*Merges the test and train datasets
-*Removes all variables that are not either a mean or standard deviation
-*Replaces the activity numbers with activity titles
-*Splits the dataset by activity
-*Calculates means for all subjects doing that activity
-*Outpits a final, "tidy" dataset giving the mean values for each activity.
+*  Downloads and unzips the relevant data
+*  Adds column names listed in features.txt
+*  Merges the test and train datasets
+*  Removes all variables that are not either a mean or standard deviation
+*  Replaces the activity numbers with activity titles
+*  Splits the dataset by activity
+*  Calculates means for all subjects doing that activity
+*  Outpits a final, "tidy" dataset giving the mean values for each activity.
 
 ##The tidy dataset
 Measurements made with the accelerometer are labeled as acceleration. These measurements were made in the x, y, z directions in the time domain (labeled X(t), Y(t), etc.) and fast-fourier transforms converted the data to the frequency domain (labeled X(f), Y(f), etc.).
